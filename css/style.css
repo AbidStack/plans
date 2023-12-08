@@ -12,7 +12,7 @@ ul {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.pricing-table-12 .price-header .subtitle {
+.pricing-table .price-header .subtitle {
   font-size: 20px;
 }
 
@@ -76,7 +76,7 @@ padding: 20%;
 }
 
 
-.pricing-table-12 {
+.pricing-table {
   text-align: center;
   transition: 0.3s ease-in;
   position: relative;
@@ -87,7 +87,7 @@ padding: 20%;
   margin-bottom: 30px;
 }
 
-.pricing-table-12 .price-header {
+.pricing-table .price-header {
   padding: 20px 0 35px;
   background-color: #31455b;
   margin-bottom: 30px;
@@ -96,7 +96,7 @@ padding: 20%;
   z-index: 0;
 }
 
-.pricing-table-12 .price-header:after {
+.pricing-table .price-header:after {
   position: absolute;
   left: 0;
   top: 0;
@@ -107,12 +107,12 @@ padding: 20%;
   z-index: -1;
 }
 
-.pricing-table-12 .price-header .subtitle {
+.pricing-table .price-header .subtitle {
   font-size: 14px;
   color: #e5e3e3;
 }
 
-.pricing-table-12 .price-header .title {
+.pricing-table .price-header .title {
   color: #fff;
   font-size: 21px;
   line-height: 26px;
@@ -123,7 +123,7 @@ padding: 20%;
   margin-bottom: 5px;
 }
 
-.pricing-table-12 .icon-area {
+.pricing-table .icon-area {
   font-size: 60px;
   line-height: 60px;
   color: #197beb;
@@ -131,7 +131,7 @@ padding: 20%;
   display: block;
 }
 
-.pricing-table-12 .price {
+.pricing-table .price {
   font-family: sans-serif;
   font-size: 50px;
   line-height: 40px;
@@ -144,7 +144,7 @@ padding: 20%;
   margin: 50px 0px;
 }
 
-.pricing-table-12 .price .dollar {
+.pricing-table .price .dollar {
   font-size: 33px;
   line-height: 33px;
   position: relative;
@@ -152,18 +152,18 @@ padding: 20%;
   transition: 0.3s ease-in;
 }
 
-.pricing-table-12 .price .month {
+.pricing-table .price .month {
   font-size: 20px;
   line-height: 20px;
   transition: 0.3s ease-in;
   font-weight: 800;
 }
 
-.pricing-table-12 .price-footer {
+.pricing-table .price-footer {
   margin-top: 0px;
 }
 
-.pricing-table-12 .price-footer .order-btn {
+.pricing-table .price-footer .order-btn {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
   width: 165px;
@@ -182,18 +182,18 @@ padding: 20%;
   border: 2px solid #197beb;
 }
 
-.pricing-table-12 .price-footer .order-btn:hover {
+.pricing-table .price-footer .order-btn:hover {
   box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.35);
   background-color: #197beb;
   color: #fff;
 }
 
-.pricing-table-12 .price-body ul {
+.pricing-table .price-body ul {
   margin: 0;
   padding: 0;
 }
 
-.pricing-table-12 .price-body ul li {
+.pricing-table .price-body ul li {
   list-style: none;
   display: block;
   color: #282828;
@@ -203,12 +203,19 @@ padding: 20%;
   border-bottom: 1px solid #e7eefe;
 }
 
-.pricing-table-12 .price-body ul li:last-child {
+.pricing-table .price-body ul li:last-child {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.pricing-table-12 .price-body ul li:first-child {
+.pricing-table .price-body ul li:first-child {
   margin-top: 0;
+}
+
+.tuki {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  color: aqua;
 }
